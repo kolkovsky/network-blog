@@ -1,0 +1,42 @@
+{
+  "name": "subgraph-users",
+  "version": "1.0.0",
+  "description": "Subgrpah-user",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts"
+  },
+  "keywords": [
+    "Apollo",
+    "Server"
+  ],
+  "author": "Stas Kolkovsky",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.2.1",
+    "@apollo/subgraph": "^2.2.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.8",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.14.1",
+    "@graphql-codegen/introspection": "2.2.1",
+    "@graphql-codegen/typescript": "2.8.2",
+    "@graphql-codegen/typescript-resolvers": "2.7.7",
+    "@types/cors": "^2.8.12",
+    "@types/node": "^18.11.9",
+    "@types/pg": "^8.6.5",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.9.3"
+  }
+}
